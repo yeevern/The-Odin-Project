@@ -13,8 +13,8 @@ body{
 }
 
 .small-para {
-    font-size: 14px;
-    font-weight: 800;
+  font-size: 14px;
+  font-weight: 800;
 }
 
 .button {
@@ -24,15 +24,15 @@ body{
 }
 
 .confirm {
-    background: green;
-    color: white;
-    font-weight: bold;
+  background: green;
+  color: white;
+  font-weight: bold;
   } 
 
 .text {
-    color: rgb(0, 0, 0);
-    font-size: 22px;
-    font-weight: 100;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-weight: 100;
   }
 
 .child {
