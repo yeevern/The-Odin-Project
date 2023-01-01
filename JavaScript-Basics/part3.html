@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Ex 1 --------------
+        // Write a function called add7 that takes one number and returns that number + 7.
+
+        // function add7(num) {
+        //     return num+7
+        // }
+
+        // console.log(add7(3));
+
+        let add7 = (num) => num + 7
+        console.log(add7(3));
+
+        // Ex 2 --------------
+        // Write a function called multiply that takes 2 numbers and returns their product.
+        // function multiply(a, b) {
+        //     return a*b
+        // }
+
+        // console.log(multiply(4, 3));
+
+        let multiply = (a, b) => a*b
+        console.log(multiply(4, 3));
+
+        // Ex 3 --------------
+        // Write a function called capitalize that takes a string and returns that string with only the 
+        // first letter capitalized. Make sure that it can take strings that are lowercase, UPPERCASE or BoTh.
+        function capitalize() {
+            let string = prompt("Enter some text!");
+            return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
+        }
+        console.log(capitalize());
+
+        // Ex 4 --------------
+        // Write a function called lastLetter that takes a string and returns the very last letter of that string:
+        // lastLetter("abcd") should return "d"
+        function lastLetter() {
+            let word = prompt("Enter a word. The last letter will be returned.");
+            return word.slice(-1);
+        }
+        console.log(lastLetter());
+
+    </script>
+</body>
+</html>
